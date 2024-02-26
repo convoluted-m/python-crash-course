@@ -30,6 +30,7 @@ age = 30
 age >=18 and age < 40 # can also use parentheses (age >=18) and (age < 40)
 
 # Checking if a Value Is in a List - in
+# Returns True/False
 colours = ["sea green", "turquoise", "lime", "sage", "moss"]
 print("sea green" in colours)
 
@@ -110,5 +111,12 @@ else:
     price = 20
 print(f"The course cos is ${price}.")
 
-
-
+# Testing Multiple Conditions
+# When it’s important to check all conditions, use a series of if statements with no elif or else blocks
+requested_toppings = ['mushrooms', 'extra cheese']
+if 'mushrooms' in requested_toppings:
+      print("\nAdding mushrooms.")
+if 'pepperoni' in requested_toppings: print("Adding pepperoni.")
+if 'extra cheese' in requested_toppings:
+    print("Adding extra cheese.")
+print("Finished making your pizza!")
