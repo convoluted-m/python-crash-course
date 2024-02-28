@@ -1,10 +1,11 @@
 # DICTIONARIES
-# define a dict
+### DEFINING 
 alien = {}
 
 # Sample dictionary of key-value pairs
 alien = {'color': 'sea green', 'points': 5}
 
+### ACCESSING
 # Use key to access the value with dict_name[key]
 print(alien['color'])
 print(alien['points'])
@@ -13,6 +14,7 @@ print(alien['points'])
 new_points = alien['points']
 print(f"You just earned {new_points} points!")
 
+### MODIFYING
 # Adding more key-value pairs
 alien['x_position'] = 0
 alien['y_position'] = 25
