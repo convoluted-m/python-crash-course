@@ -77,7 +77,7 @@ quality = teletubby.get("personality")
 print(quality)
 
 # If no value when accessing
-attribute_value = teletubby.get('attribute', 'No point value assigned.')
+attribute_value = teletubby.get('attribute', 'No attribute value assigned.')
 print(attribute_value)
 # add value 
 teletubby['attribute'] = 'red bag'
