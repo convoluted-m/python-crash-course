@@ -1,4 +1,4 @@
-# 
+# Use the break statement to exit a loop without running any remaining code in the loop
 prompt = "\nPlease enter the name of a city you have visited:"
 prompt += "\n(Enter 'quit' when you are finished.) "
 

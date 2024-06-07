@@ -1,14 +1,16 @@
-## int() function converts the input string to a numerical value
+# Taking numerical input
+# input() function interprets everything as a string
+# Use int() function to convert the input string to a numerical value
 
-# # Example 1. Age
-# age = input("How old are you? ")
-# age = int(age)
-# print(f"\nI see your are, {age}!")
+# Example: Age
+age = input("How old are you? ")
+age = int(age)
+print(f"I see you are {age}!")
 
-# Example 2. Height
-height = input("How tall are you, in cm? ")
+# Example: Height
+height = input("\nHow tall are you, in cm? ")
 height = int(height)
 if height >= 150:
-    print("\nYou're tall enough to ride!")
+    print(f"\nYaaay, {height} cm is tall enough, so you can ride!")
 else:
     print("\nYou'll be able to ride when you're a little older.")

@@ -1,6 +1,6 @@
-# Use a flag variable t  determine whether or not the entire program is active
-# run while the flag is set to True & stop when any of events sets the value to False
-# while statement needs to check only one condition: whether the flag is currently True
+# Use a flag variable to determine if the program is active - 
+# - run while the flag is set to True, stop when any event sets it to False
+# while statement needs to check only one condition if the flag is currently True
 
 prompt = "\nTell me something, and I will repeat it back to you:"
 prompt += "\nEnter 'quit' to end the program. "
