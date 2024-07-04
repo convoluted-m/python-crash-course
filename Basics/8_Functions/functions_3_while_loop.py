@@ -1,5 +1,4 @@
 ## Using a function with a while loop
-
 def make_album(artist, album):
     album_info = f"{artist} {album}"
     return album_info.title()
