@@ -11,10 +11,13 @@ class Book:
         self.author = author
         self.year = year
 
+# Define a method to print a string with book info
     def get_book_description(self):
-        """Return a book description ."""
+        """Return a book description."""
         description = (f"'{self.title}' was written by {self.author} in {self.year}.")
         return description
 
+# Make a new Book instance and assign it to "book" variable
 book = Book('The Master and Margarita', 'Mikhail Bulgakov', 1928)
+
 print(book.get_book_description())
