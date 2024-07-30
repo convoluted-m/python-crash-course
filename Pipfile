@@ -4,11 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyter = "*"
-matplotlib = "*"
-openai = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "2.7"
+python_version = "3.11"

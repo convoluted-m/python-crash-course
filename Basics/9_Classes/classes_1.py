@@ -5,12 +5,12 @@
 
 ## Define the class
 class Dog:
-    """An attempt to represent any dog."""
+    """An attempt to represent a dog."""
     
 # Create a new instance based on the class using the init() method
 # Provide parameters (self doesn't need a value provided)
     def __init__(self, name, age):                      
-        """Initialize name and age attributes."""
+        """Initialize attributes to describe a dog."""
         # Take the value associated with the parameter and assign it to the variable  
         # Variables accessible through instances are called attributes
         self.name = name 
