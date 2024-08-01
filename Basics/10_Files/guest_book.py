@@ -1,13 +1,30 @@
-# Collect names of all the guests and store them in a guest book (txt file)
+# Write a while loop that prompts users for their name. 
+# Collect all names and write them  to a file  guest_book.txt. 
 
-# Import a library for working with files
+# Import the pathlib library for working with files
 from pathlib import Path
 
+# provide the path to the file to be created
+path = Path('guest_book.txt')
+
 # Prompt the user to provide the guest names
-print("Please log all the guest names in the guest book.")
-print("Say 'done' when you're done.")
-name = input("Guest name: ")
+prompt = ("Hi, what's your name? ")
+prompt += ("Say 'done' if you're the last guest. ")
+
+# Crate a list to store guest names
+guest_names=[]
+
+while True:
+    name = input(prompt)
+    if name == "done":
+        break
+
+    print("Thanks! Added your name to the guest book.")
+    guest_names.append(name)
+
+file_string = ''
+for name in guest_names:
+    file_string += f"{name}\n"
 
 # Write the guest names in a file
-path = Path('guest_book.txt')
-path.write_text(name)
+path.write_text(file_string)
