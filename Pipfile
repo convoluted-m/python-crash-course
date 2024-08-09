@@ -9,6 +9,7 @@ pygame = "*"
 matplotlib = "*"
 plotly = "*"
 pandas = "*"
+requests = "*"
 
 [dev-packages]
 
